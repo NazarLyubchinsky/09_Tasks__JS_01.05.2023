@@ -1,0 +1,21 @@
+.info {
+	padding: 10px;
+	background-color: rgb(99, 99, 242);
+}
+.info-block {
+	color: #fff;
+	background-color: blue;
+	padding: 5px;
+	border: 1px solid #000;
+	margin-top: 10px;
+}
+.info-content {
+	display: none;
+}
+
+.info-block.open .info-content {
+	display: block;
+}
+.info-header {
+	cursor: pointer;
+}
